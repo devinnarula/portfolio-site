@@ -1,0 +1,48 @@
+.Header {
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.Header-Title {
+    color: #999999;
+    font-size: 25px;
+    margin: 0;
+}
+
+.Header-Navbar {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Header-NavList {
+    display: flex;
+    list-style-type: none;
+}
+
+.Header-NavItem {
+    color: #999999;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.Header-NavItem:hover {
+    color: #666666;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.Header-ActiveNavItem {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
