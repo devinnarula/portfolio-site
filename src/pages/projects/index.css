@@ -1,0 +1,28 @@
+.Projects-container{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.Projects-img{
+  margin-right: 20px;
+  height: 30vh;
+}
+
+.Projects-title{
+  color: white;
+  font-size: 20px;
+  line-height: 0px;
+  margin-bottom: 20px;
+}
+
+.Projects-about{
+  color: white;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.Projects-ImageLinks{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}

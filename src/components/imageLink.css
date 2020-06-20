@@ -1,0 +1,26 @@
+.MediaLink-Container {
+    background-color: rgba(0,0,0,0.8);
+    width: 20vh;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px rgba(100,100,100,0.4);
+}
+
+.MediaLink-Container:hover {
+    /* background-color: rgba(0,0,0); */
+    box-shadow: 7px 10px 12px -5px rgba(150,150,150,0.2);
+}
+
+.MediaLink-handle {
+    color: white;
+    font-size: 20px;
+}
+
+.MediaLink-img {
+    margin-top: 20px;
+    border-radius: 10%;
+    width: 18vh;
+}
