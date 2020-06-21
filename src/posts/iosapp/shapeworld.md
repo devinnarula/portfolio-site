@@ -21,3 +21,7 @@ FEATURES:
 Game and graphics by Devin Narula
 
 Sound from Zapsplat.com
+
+<a href='https://github.com/devinnarula/portfolio-site' target='_blank'>
+<img src='https://raw.githubusercontent.com/devinnarula/portfolio-site/master/src/img/appstoredownload.png' width="150" height="50">
+</a>
