@@ -36,12 +36,13 @@ body {
 
   .index-moreinfo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
   .index-moreinfobox {
     background-color: rgba(0,0,0,0.8);
-    width: 20vh;
+    width: 21vh;
     text-indent: 10px;
     border: solid 2px rgba(100,100,100,0.4);
     margin-top: 10vh;
@@ -59,8 +60,7 @@ body {
   }
 
   .index-link {
-    color: white;
-  }
+    color: white;  }
 
   .index-sublink {
     color: white;

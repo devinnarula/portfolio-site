@@ -13,28 +13,38 @@ const WebDevelopment = () => {
                         frontmatter{
                             title
                             imgSrc
+                            section
+                        }
+                        fields {
+                            slug
                         }
                     }
                 }
             }
         }
     `)
+    const imgSrc = require('../../img/webdev.jpeg')
 
-    console.log(data)
-
-    const imgSrc = require('../../img/Profile.jpg')
     return (
         <Layout>
-            <h1>Web Development</h1>
-            {/* <ol> */}
+            <div className="ProjectStyle-container">
+              <img className="ProjectStyle-img" src={imgSrc} />
+                <div>
+                <h1 className="ProjectStyle-title">Web Development:</h1>
+                <p className="ProjectStyle-about">
+                    I started learning web development at TRACE Camp, a coding bootcamp through Clemson University. I have explored subjects such as HTML and CSS, JavaScript, React, and Gatsby. Check out some of my projects below!
+                </p>
+              </div>
+            </div>
             <div className='ProjectStyle-ImageLinks'>
                 {data.allMarkdownRemark.edges.map((edge) => {
-                    return (
-                        <ImageLink imgSrc={require(`../../img/${edge.node.frontmatter.imgSrc}`)} title={edge.node.frontmatter.title} link="https://google.com" isExternal={false} />
-                    )
+                    if (edge.node.frontmatter.section == 'webdevelopment') {
+                        return (
+                            <ImageLink imgSrc={require(`../../img/${edge.node.frontmatter.imgSrc}`)} title={edge.node.frontmatter.title} link={`/projects/${edge.node.fields.slug}`} isExternal={false} />
+                        )
+                    }
                 })}
             </div>
-            {/* </ol> */}
         </Layout>
     )
 }

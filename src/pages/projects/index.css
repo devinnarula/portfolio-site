@@ -24,5 +24,6 @@
 .Projects-ImageLinks{
     margin-top: 10vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }

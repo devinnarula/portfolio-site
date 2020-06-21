@@ -24,7 +24,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='https://drive.google.com/file/d/1gnTbWk2aFYIm_Yx72NZksM1M-a-pd-rL/view?usp=sharing' target='_blank'>
+                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/resume'>
                             Resume
                         </Link>
                     </li>

@@ -1,0 +1,32 @@
+.ProjectTemplate-container{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.ProjectTemplate-desc {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ProjectTemplate-img{
+  height: 30vh;
+}
+
+.ProjectTemplate-title{
+  color: white;
+  font-size: 20px;
+  line-height: 0px;
+  margin-bottom: 20px;
+}
+
+/* .ProjectTemplate-title {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+} */
+
+.ProjectTemplate-html {
+    color: white;
+    padding-bottom: 10px;
+}
