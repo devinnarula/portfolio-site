@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery}  from 'gatsby'
 import Layout from '../../components/layout'
 import ImageLink from '../../components/imageLink'
+import Head from '../../components/head'
 import './projectsstyle.css'
 
 const RelatedCoursework = () => {
@@ -27,6 +28,7 @@ const RelatedCoursework = () => {
 
     return (
         <Layout>
+            <Head title='Related Coursework'/>
             <div className="ProjectStyle-container">
               <img className="ProjectStyle-img" src={imgSrc} />
                 <div>

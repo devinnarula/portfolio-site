@@ -5,12 +5,12 @@ import './header.css'
 const Header = () => {
     return (
         <header className='Header'>
-            <h1 className='Header-Title'>Devin Narula</h1>
+            <img className='Header-Favicon' src={require('../img/favicon.png')} />
             <nav className='Header-Navbar'>
                 <ul className='Header-NavList'>
                     <li>
                         <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/'>
-                            Home
+                            About Me
                         </Link>
                     </li>
                     <li>

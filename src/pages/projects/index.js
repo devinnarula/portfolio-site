@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 import ImageLink from '../../components/imageLink'
+import Head from '../../components/head'
 import './index.css'
 
 const Projects = () => {
@@ -15,6 +16,7 @@ const Projects = () => {
     }
     return (
         <Layout>
+            <Head title='Projects'/>
             <div className="Projects-container">
               <img className="Projects-img" src={imgSrc} />
                 <div>

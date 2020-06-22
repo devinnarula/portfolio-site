@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Layout from '../components/layout';
 import ImageLink from '../components/imageLink';
+import Head from '../components/head'
 import './contact.css';
 
 const Contact = () => {
@@ -23,6 +24,7 @@ const Contact = () => {
     }
     return (
         <Layout>
+            <Head title='Contact'/>
             <form className="Contact-Form">
                 <caption className="Contact-Caption">Subject:</caption>
                 <textarea className="Contact-Subject" value={subject} onChange={handleSubjectChange}></textarea>

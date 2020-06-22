@@ -21,7 +21,11 @@ FEATURES:
 Game and graphics by Devin Narula
 
 Sound from Zapsplat.com
+<br/>
+<a href='https://drive.google.com/file/d/1xwXjbzLh2GxrLq9Xh-gAWXAwinUwGrYW/view?usp=sharing' target='_blank'>
+Privacy Policy
+</a>
 
-<a href='https://github.com/devinnarula/portfolio-site' target='_blank'>
-<img src='https://raw.githubusercontent.com/devinnarula/portfolio-site/master/src/img/appstoredownload.png' width="160" height="60">
+<a href='https://apps.apple.com/us/app/shape-world/id1515195756' target='_blank'>
+<img src='https://raw.githubusercontent.com/devinnarula/portfolio-site/master/src/img/appstoredownload.png' width="150" height="50">
 </a>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Head from '../components/head'
 import './project.css'
 
 export const query = graphql`
@@ -17,6 +18,7 @@ export const query = graphql`
 const Project = (props) => {
     return (
         <Layout>
+            <Head title={props.data.markdownRemark.frontmatter.title}/>
             <div className="ProjectTemplate-container">
               <img className="ProjectTemplate-img" src={require(`../img/${props.data.markdownRemark.frontmatter.imgSrc}`)} />
               <div className="ProjectTemplate-desc">

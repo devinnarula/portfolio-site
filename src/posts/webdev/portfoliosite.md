@@ -1,6 +1,6 @@
 ---
 title: "Portfolio Site"
-imgSrc: "portfoliosite.png"
+imgSrc: "Profile.jpg"
 section: webdevelopment
 ---
 
