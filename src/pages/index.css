@@ -11,6 +11,62 @@ body {
       monospace;
   }
 
+  .index-animationcontainer{
+    /* background-color: rgba(0,0,0,0); */
+    /* animation-duration: 4s;
+    animation-name: animatelogo; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* @keyframes animatelogo {
+    0% {
+      background-color: rgba(20,20,20,1);
+    }
+    90% {
+      background-color: rgba(20,20,20,1);
+    }
+    100% {
+      background-color: rgba(20,20,20,0);
+    }
+  } */
+
+  .index-animationcontainerimg {
+    width: 0vh;
+    position: absolute;
+    align-self: center;
+    /* opacity: 0; */
+    animation-duration: 4s;
+    animation-name: fadeout;
+  }
+  @keyframes fadeout {
+    0% {
+      width: 25vh
+    }
+    80% {
+      width: 25vh
+    }
+    100% {
+      width: 0vh
+    }
+  }
+
+  .index-startcontainer{
+    opacity: 1;
+    animation-duration: 7s;
+    animation-name: fadeinmain;
+  }
+  @keyframes fadeinmain {
+    0% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .index-container{
       display: flex;
       background-color: rgba(0,0,0,0.8);
@@ -25,18 +81,37 @@ body {
     font-size: 30px;
     color: white;
     margin-top: 5px;
+    animation-duration: 8s;
+    animation-name: fadein1;
   }
+
+  @keyframes fadein1 {
+    0% {
+      color: rgba(255,255,255,0);
+    }
+    75% {
+      color: rgba(255,255,255,0);
+    }
+    100% {
+      color: rgba(255,255,255,1);
+    }
+  }
+
   .index-aboutTitle{
     color: white;
     font-size: 20px;
     line-height: 0px;
     margin-bottom: 20px;
+    animation-duration: 10s;
+    animation-name: fadein2;
   }
   .index-aboutText{
     color: white;
     font-size: 15px;
     margin-bottom: 30px;
     margin-right: 15px;
+    animation-duration: 10s;
+    animation-name: fadein2;
   }
 
   .index-doingText{
@@ -44,6 +119,20 @@ body {
     font-size: 15px;
     margin-bottom: 5px;
     margin-right: 15px;
+    animation-duration: 10s;
+    animation-name: fadein2;
+  }
+
+  @keyframes fadein2 {
+    0% {
+      color: rgba(255,255,255,0);
+    }
+    80% {
+      color: rgba(255,255,255,0);
+    }
+    100% {
+      color: rgba(255,255,255,1);
+    }
   }
 
   .index-moreinfo {
@@ -58,25 +147,71 @@ body {
     text-indent: 10px;
     border: solid 2px rgba(100,100,100,0.4);
     margin-top: 10vh;
+    animation-duration: 12s;
+    animation-name: fadein3;
   }
-
+  @keyframes fadein3 {
+    0% {
+      background-color: rgba(0,0,0,0);
+      border: solid 2px rgba(100,100,100,0);
+    }
+    83% {
+      background-color: rgba(0,0,0,0);
+      border: solid 2px rgba(100,100,100,0);
+    }
+    100% {
+      background-color: rgba(0,0,0,0.8);
+      border: solid 2px rgba(100,100,100,0.4);
+    }
+  }
   .index-moreinfotitle {
     color: white;
     font-size: 20px;
+    animation-duration: 12s;
+    animation-name: fadein4;
   }
-
+  @keyframes fadein4 {
+    0% {
+      color: rgba(255,255,255,0);
+    }
+    83% {
+      color: rgba(255,255,255,0);
+    }
+    100% {
+      color: rgba(255,255,255,1);
+    }
+  }
   .index-moreinfotext {
     color: white;
     font-size: 15px;
     line-height: 10px;
+    animation-duration: 14s;
+    animation-name: fadein5;
   }
 
   .index-link {
-    color: white;  }
+    color: white;  
+    animation-duration: 14s;
+    animation-name: fadein5;
+  }
 
   .index-sublink {
     color: white;
     font-size: 15px;
     line-height: 10px;
     text-indent: 20px;
+    animation-duration: 14s;
+    animation-name: fadein5;
+  }
+
+  @keyframes fadein5 {
+    0% {
+      color: rgba(255,255,255,0);
+    }
+    86% {
+      color: rgba(255,255,255,0);
+    }
+    100% {
+      color: rgba(255,255,255,1);
+    }
   }

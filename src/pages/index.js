@@ -7,6 +7,9 @@ import './index.css'
 const Index = () => {
   const imgSrc = require('../img/Profile.jpg')
     return (
+      <div className="index-animationcontainer">
+         <img className="index-animationcontainerimg" src={require('../img/logo.gif')} />
+      <div className="index-startcontainer">
         <Layout>
             <Head title='About Me'/>
             <div className="index-container">
@@ -54,29 +57,31 @@ const Index = () => {
               <div className="index-moreinfobox">
                   <h1 className="index-moreinfotitle">Navigation:</h1>
                     <p className="index-moreinfotext">
-                      <Link className="index-link" to='/projects'>Projects</Link>
+                      <Link className="index-link" to='/projects' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Projects</Link>
                     </p>
                     <p className="index-sublink">
-                      <Link className="index-link" to='/projects/webdevelopment'>Web Development</Link>
+                      <Link className="index-link" to='/projects/webdevelopment' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Web Development</Link>
                     </p>
                     <p className="index-sublink">
-                      <Link className="index-link" to='/projects/iosapplications'>iOS Applications</Link>
+                      <Link className="index-link" to='/projects/iosapplications' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">iOS Applications</Link>
                     </p>
                     <p className="index-sublink">
-                      <Link className="index-link" to='/projects/relatedcoursework'>Related Coursework</Link>
+                      <Link className="index-link" to='/projects/relatedcoursework' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Related Coursework</Link>
                     </p>
                     <p className="index-sublink">
-                      <Link className="index-link" to='/projects/research'>Research</Link>
+                      <Link className="index-link" to='/projects/research' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Research</Link>
                     </p>
                     <p className="index-moreinfotext">
-                      <Link className="index-link" to='/contact'>Contact</Link>
+                      <Link className="index-link" to='/contact' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Contact</Link>
                     </p>
                     <p className="index-moreinfotext">
-                    <Link className="index-link" href='/resume'>Resume</Link>
+                    <Link className="index-link" href='/resume' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">Resume</Link>
                     </p>
               </div>
             </div>
         </Layout>
+        </div>
+        </div>
     )
 }
 

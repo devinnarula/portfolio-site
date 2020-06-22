@@ -9,22 +9,22 @@ const Header = () => {
             <nav className='Header-Navbar'>
                 <ul className='Header-NavList'>
                     <li>
-                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/'>
-                            About Me
+                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">
+                            Home
                         </Link>
                     </li>
                     <li>
-                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/projects'>
+                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/projects' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/contact'>
+                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/contact' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">
                             Contact
                         </Link>
                     </li>
                     <li>
-                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/resume'>
+                        <Link className='Header-NavItem' activeClassName='Header-ActiveNavItem' to='/resume' onClick="document.getElementById('../img/logo.gif').src='../img/logo.gif'">
                             Resume
                         </Link>
                     </li>
