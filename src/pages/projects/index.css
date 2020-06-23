@@ -1,11 +1,17 @@
 .Projects-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgba(0,0,0,0.8);
 }
 
 .Projects-img{
   margin-right: 20px;
-  height: 30vh;
+  width: 40vh;
+}
+
+.Projects-text{
+  max-width: 60%;
+  flex-grow: 1;
 }
 
 .Projects-title{

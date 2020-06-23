@@ -19,7 +19,7 @@ const Projects = () => {
             <Head title='Projects'/>
             <div className="Projects-container">
               <img className="Projects-img" src={imgSrc} />
-                <div>
+                <div className="Projects-text">
                 <h1 className="Projects-title">Projects:</h1>
                 <p className="Projects-about">
                     I am always trying to expand my knowledge and explore new and interesting topics! The following sections show some of my projects and highlight my experiences with programming and computer science. These sections include many areas of my work. Some of which is published online for public use and some are experimental projects.

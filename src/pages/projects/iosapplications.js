@@ -31,7 +31,7 @@ const IosApplications = () => {
             <Head title='iOS Applications'/>
             <div className="ProjectStyle-container">
               <img className="ProjectStyle-img" src={imgSrc} />
-                <div>
+                <div className="ProjectStyle-text">
                 <h1 className="ProjectStyle-title">iOS Applications:</h1>
                 <p className="ProjectStyle-about">
                     I have been teaching myself the swift programming language and iOS development though online resources and textbooks. I have mostly focused on mobile games, but I am also trying to explore other applications. I received a grant from the Clemson University Honors College to fund these projects and put my applications on the App Store.

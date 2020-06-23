@@ -31,7 +31,7 @@ const Research = () => {
             <Head title='Research'/>
             <div className="ProjectStyle-container">
               <img className="ProjectStyle-img" src={imgSrc} />
-                <div>
+                <div className="ProjectStyle-text">
                 <h1 className="ProjectStyle-title">Research:</h1>
                 <p className="ProjectStyle-about">
                     I have always been fascinated by the world of research and discovery. As most of my passions are with programming and technology, the majority of my personal projects are listed on other sections of this website. However, the more formal academic research projects I have completed are listed on this page.

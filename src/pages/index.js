@@ -14,8 +14,9 @@ const Index = () => {
             <Head title='About Me'/>
             <div className="index-container">
               <img className="index-img" src={imgSrc} />
-              <div>
+              <div className="index-text">
                 <h1 className="index-title">Hello! My name is Devin Narula.</h1>
+                
                 <h1 className="index-aboutTitle">About Me:</h1>
                 <p className="index-aboutText">
                   I am currently a sophomore computer science major at Clemson University with a minor in mathematics from Charleston, SC. I have always been interested in code since I took my first computer science class in high school! It fascinates me because of how it combines my strong background in mathematics with interesting new technologies and elements of design.

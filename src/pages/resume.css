@@ -8,12 +8,12 @@
 .resume-img{
     margin-top: 20px;
     width: 90vh;
+    max-width: 90%;
     margin-top: 50px;
 }
 
 .resume-title{
   color: white;
   font-size: 40px;
-  line-height: 0px;
   margin-top: 50px;
 }

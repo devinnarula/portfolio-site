@@ -31,7 +31,7 @@ const WebDevelopment = () => {
             <Head title='Web Development'/>
             <div className="ProjectStyle-container">
               <img className="ProjectStyle-img" src={imgSrc} />
-                <div>
+                <div className="ProjectStyle-text">
                 <h1 className="ProjectStyle-title">Web Development:</h1>
                 <p className="ProjectStyle-about">
                     I started learning web development at TRACE Camp, a coding bootcamp through Clemson University. I have explored subjects such as HTML and CSS, JavaScript, React, and Gatsby. Check out some of my projects below!

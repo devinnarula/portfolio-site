@@ -31,7 +31,7 @@ const RelatedCoursework = () => {
             <Head title='Related Coursework'/>
             <div className="ProjectStyle-container">
               <img className="ProjectStyle-img" src={imgSrc} />
-                <div>
+                <div className="ProjectStyle-text">
                 <h1 className="ProjectStyle-title">Related Coursework:</h1>
                 <p className="ProjectStyle-about">
                     At Clemson I try to challenge myself with a rigorous course load while pursuing my degree in computer science with a minor in mathematics. This page describes some of the work I have completed in my classes.
