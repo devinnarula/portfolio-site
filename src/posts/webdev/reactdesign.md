@@ -11,6 +11,6 @@ This website is a basic design I made with React while I was first first experim
 </a>
 <br/>
 <br/>
-<a href='http://devinnarula-react-project1.surge.sh/' target='_blank'>
+<a href='https://devinnarula-paintingsite.netlify.app/' target='_blank'>
 <img src='https://raw.githubusercontent.com/devinnarula/portfolio-site/master/src/img/livelink.png' width="150" height="50">
 </a>

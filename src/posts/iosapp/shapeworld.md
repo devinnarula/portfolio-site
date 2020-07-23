@@ -3,6 +3,9 @@ title: "Shape World"
 imgSrc: "shapeworld.png"
 section: iosapplications
 ---
+This is an mobile game for iOS created with swift in Xcode.
+
+App Description:
 
 Explore the 2 dimensional word on your phone in the new game Shape World!! Start your adventure as a triangle who is struggling to make it in the world of shapes where the shapes with more sides rule. Beat levels! Gain sides! And save Shape World!
 
