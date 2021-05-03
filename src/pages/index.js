@@ -19,7 +19,7 @@ const Index = () => {
                 
                 <h1 className="index-aboutTitle">About Me:</h1>
                 <p className="index-aboutText">
-                  I am currently a sophomore computer science major at Clemson University with a minor in mathematics from Charleston, SC. I have always been interested in code since I took my first computer science class in high school! It fascinates me because of how it combines my strong background in mathematics with interesting new technologies and elements of design.
+                  I am currently a junior computer science and mathematics double major at Clemson University from Charleston, SC. I have always been interested in code since I took my first computer science class in high school! It fascinates me because of how it combines my strong background in mathematics with interesting new technologies and elements of design.
                 </p>
                 <h1 className="index-aboutTitle">What I'm doing now:</h1>
                 <p className="index-doingText">
